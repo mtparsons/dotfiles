@@ -1,0 +1,11 @@
+defscrollback 10000
+
+hardstatus alwayslastline "%-Lw%{= BW}%50>%n%f* %t%{-}%+Lw%<"
+vbell off
+
+
+bind s
+bind Q
+bind q
+
+escape ^Vv
