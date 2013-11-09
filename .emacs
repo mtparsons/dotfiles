@@ -5,5 +5,11 @@
 (global-set-key "\C-ca" 'org-agenda)
 (global-set-key "\C-cb" 'org-iswitchb)
 
+;;Get rid of those fucking ~ files
 (setq make-backup-files nil)
+
+;;Easy goto-line
 (global-set-key "\M-g" `goto-line)
+
+;;Stop inserting tab characters
+(setq-default indent-tabs-mode nil)
