@@ -1,0 +1,7 @@
+[user]
+	name = Michael Parsons
+	email = mtparsons87@gmail.com
+[core]
+	editor = emacs
+[credential]
+	helper = cache
