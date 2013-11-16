@@ -2,6 +2,6 @@
 	name = Michael Parsons
 	email = mtparsons87@gmail.com
 [core]
-	editor = emacs
+	editor = emacs -nw
 [credential]
 	helper = cache
