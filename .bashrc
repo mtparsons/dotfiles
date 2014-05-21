@@ -106,10 +106,12 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
     . /etc/bash_completion
 fi
 
-export PS1='\[\e[32m\]\t \u@\h:\[\e[33m\]\w\[\e[0m\]\n\$ '
+export PS1='\[\e[32m\]\D{%m.%d.%Y} \t \u@\h:\[\e[33m\]\w\[\e[0m\]\n\$ '
 alias ls='ls --color -a'
 alias lsl='ls -al'
 alias emacs='emacs -nw'
 alias eamcs='emacs -nw'
 alias utgz='tar -zxvf'
 alias tgz='tar -zcvf'
+alias mfc_venv='source ~/Work/venvs/mfc_venv/bin/activate'
+export TERM=xterm-256color

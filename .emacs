@@ -13,3 +13,23 @@
 
 ;;Stop inserting tab characters
 (setq-default indent-tabs-mode nil)
+(setq-default tab-width 4)
+(setq indent-line-function 'insert-tab)
+
+;;This is supposed to help with files saving
+;;speed although it doesn't really seem to be doing anything
+(setq vc-handled-backends nil)
+
+(load-theme 'tsdh-dark t)
+
+;;Functions to handle moving to other windows 
+(defun move-cursor-next-pane ()
+  (interactive)
+  (other-window 1))
+
+(defun move-cursor-previous-pane ()
+  (interactive)
+  (other-window -1))
+
+(global-set-key "\C-xn" 'move-cursor-next-pane)
+(global-set-key "\C-xp" 'move-cursor-previous-pane)
