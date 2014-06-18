@@ -115,3 +115,12 @@ alias utgz='tar -zxvf'
 alias tgz='tar -zcvf'
 alias mfc_venv='source ~/Work/venvs/mfc_venv/bin/activate'
 export TERM=xterm-256color
+export WORKON_HOME=~/.venvs
+export VIRTUALENVWRAPPER_HOME=/usr/local/bin/virtualenvwrapper.sh
+if [ ! -d "$WORKON_HOME" ]; then
+  mkdir -p $WORKON_HOME
+fi
+if [ -f $VIRTUALENVWRAPPER_HOME ]; then
+    source  $VIRTUALENVWRAPPER_HOME
+fi
+
