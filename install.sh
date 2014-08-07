@@ -1,10 +1,10 @@
 #!/bin/sh
 
-apt-get update;
-apt-get install python-pip;
-apt-get install git;
-apt-get install emacs24;
-apt-get install libmysqlclient-dev;
-apt-get install screen;
-apt-get install mysql-server;
-apt-get install libssl-dev;
+sudo apt-get update;
+sudo apt-get install python-pip -y;
+sudo apt-get install git -y;
+sudo apt-get install emacs -y;
+sudo apt-get install libmysqlclient-dev -y;
+sudo apt-get install screen -y;
+sudo apt-get install libssl-dev -y;
+sudo pip install virtualenvwrapper;
