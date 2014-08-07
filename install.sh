@@ -8,3 +8,5 @@ sudo apt-get install libmysqlclient-dev -y;
 sudo apt-get install screen -y;
 sudo apt-get install libssl-dev -y;
 sudo pip install virtualenvwrapper;
+sudo apt-get install nodejs -y;
+sudo apt-get install npm -y;
