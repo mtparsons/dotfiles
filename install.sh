@@ -12,4 +12,5 @@ sudo apt-get install nodejs -y;
 sudo apt-get install npm -y;
 sudo apt-get install python-dev -y;
 sudo apt-get install ruby -y;
+sudo gem install sass;
 
