@@ -17,4 +17,5 @@ sudo gem install sass;
 sudo gem install compass;
 sudo npm install -g grunt-cli;
 sudo npm install -g bower;
+sudo npm install -g jsdoc;
 

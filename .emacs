@@ -33,3 +33,4 @@
 
 (global-set-key "\C-xn" 'move-cursor-next-pane)
 (global-set-key "\C-xp" 'move-cursor-previous-pane)
+(put 'upcase-region 'disabled nil)
