@@ -124,3 +124,4 @@ if [ -f $VIRTUALENVWRAPPER_HOME ]; then
     source  $VIRTUALENVWRAPPER_HOME
 fi
 
+export PATH=${PATH}:~/Work/android/android-sdk-linux/tools/:~/Work/android/android-sdk-linux/platform-tools/
