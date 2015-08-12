@@ -18,6 +18,9 @@ sudo apt-get install nodejs-legacy -y;
 sudo apt-get install npm -y;
 sudo apt-get install python-dev -y;
 sudo apt-get install ruby-dev -y;
+#32 bit version of the libraries for android building
+sudo apt-get install zlib1g:i386 -y;
+sudo apt-get install lib32stdc++6 -y;
 
 #Global Stuff Installed Via PIP
 sudo pip install virtualenvwrapper;
