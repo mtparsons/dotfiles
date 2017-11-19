@@ -10,10 +10,6 @@
 (setq-default tab-width 4)
 (setq indent-line-function 'insert-tab)
 
-;;This is supposed to help with files saving
-;;speed although it doesn't really seem to be doing anything
-(setq vc-handled-backends nil)
-
 (load-theme 'tsdh-dark t)
 
 ;;Functions to handle moving to other windows 
@@ -34,7 +30,6 @@
 (put 'downcase-region 'disabled nil)
 
 ;; Not using this anymore
-;;(add-to-list 'load-path (expand-file-name "~/Work/emacs/"))
 
 ;; ============= Whitespace mode ===============
 (require 'whitespace)
