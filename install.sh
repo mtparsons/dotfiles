@@ -15,6 +15,7 @@ sudo apt-get install screen -y;
 sudo apt-get install libssl-dev -y;
 sudo apt-get install python-dev -y;
 sudo apt-get install python3-dev -y;
+sudo apt-get install curl -y;
 
 #Global Stuff Installed Via PIP
 sudo pip install virtualenvwrapper;
